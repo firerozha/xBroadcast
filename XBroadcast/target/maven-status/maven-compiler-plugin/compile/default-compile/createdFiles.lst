@@ -1,0 +1,4 @@
+commands/CommandBroadcastPerm.class
+commands/CommandReload.class
+dev/fireroz/xbroadcast/XBroadcast.class
+commands/CommandBroadcast.class

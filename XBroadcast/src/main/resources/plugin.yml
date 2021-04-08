@@ -1,0 +1,28 @@
+name: XBroadcast
+version: ${project.version}
+main: dev.fireroz.xbroadcast.XBroadcast
+api-version: 1.16
+prefix: XBroadcast
+authors: [ FireRoz ]
+description: A simple plugin to broadcast to players with or without permission
+
+commands:
+  broadcast:
+    aliases: bc
+  broadcastperm:
+    aliases: bcperm
+  bcreload:
+
+permissions:
+  xbroadcast.bc:
+    default: op
+  xbroadcast.bcperm:
+    default: op
+  xbroadcast.reload:
+    default: op
+  xbroadcast.*:
+    default: op
+    children:
+      xbroadcast.reload: true
+      xbroadcast.bcperm: true
+      xbroadcast.bc: true

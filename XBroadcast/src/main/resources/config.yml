@@ -1,0 +1,10 @@
+#Thanks for downloading my simplest plugin yet lmao
+
+#Sends when a player doesn't have permission to a command.
+noperm: "&cI'm sorry, but you do not have permission to perform this command."
+#Broadcast message (No perm broadcast)
+broadcast: "&7[&4&lBROADCAST&7] &c{message}"
+#Broadcast perm message (Sends when a player has permission to view a broadcast.
+# Example: /bcperm permission.here Hello
+# Output VVV
+broadcastperm: "&7[&4&lBROADCAST PERMISSION&7] &c{message}"
